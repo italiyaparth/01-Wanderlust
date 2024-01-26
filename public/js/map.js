@@ -1,5 +1,3 @@
-// Step 52
-
 mapboxgl.accessToken = mapToken;
 
 const map = new mapboxgl.Map({
