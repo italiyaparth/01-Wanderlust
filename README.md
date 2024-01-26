@@ -1,6 +1,6 @@
 # Introduction
 
--- https://delta-project-0e9j.onrender.com 
+-- https://delta-project-0e9j.onrender.com/listings
 
 -- WANDERLUST Web App is a app like AIRBNB web app ( NOT a Airbnb clone ).
 
