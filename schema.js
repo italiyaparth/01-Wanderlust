@@ -1,4 +1,3 @@
-// Step 21
 const Joi = require("joi");
 
 module.exports.listingSchemaJoiValidator = Joi.object({
@@ -18,7 +17,7 @@ module.exports.listingSchemaJoiValidator = Joi.object({
     }).required()
 });
 
-// Step 28
+
 module.exports.reviewSchemaJoiValidator = Joi.object({
 
     review: Joi.object({
