@@ -1,10 +1,13 @@
 # Introduction
 
 -- https://delta-project-0e9j.onrender.com 
+
 -- WANDERLUST Web App is a app like AIRBNB web app ( NOT a Airbnb clone ).
 
 
-# HTML, CSS, Bootstrap, MongoDB, NodeJs, ExpressJs
+# Languages & Technologies
+
+  - HTML, CSS, Bootstrap, JavaScript, MongoDB, NodeJs, ExpressJs
 
 
 # Topics Covered
