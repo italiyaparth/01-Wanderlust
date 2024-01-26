@@ -1,27 +1,7 @@
-<!-- Step 9 Using ejs-mate ( commented part ) -->
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wanderlust</title>
-</head> -->
-
-
-<!-- Step 9 - except for body all other code is in boilerplate -->
 <% layout("/layouts/boilerplate") %>
 
-
 <body>
-    
-    <!-- <h3 class="mt-3">All Listings</h3> -->
 
-    <!-- Step 6, then Step 10 ( moved to navbar.ejs, so commented out ) -->
-    <!-- <form action="/listings/new" method="get">
-        <button>Create New Listing</button>
-    </form> -->
-
-    <!-- Step 53 -->
     <form id="filterForm" action="/listings" method="get">
 
         <div id="filters">
@@ -71,9 +51,6 @@
 
     </form>
 
-
-
-    <!-- Step 12 -->
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1 mt-3">
         
         <% for (const listing of allListings) { %>
@@ -99,16 +76,8 @@
 
     </div>
 
-    <!-- Step 4 -->
-    <!-- <ul>
-        <% for (const listing of allListings) { %>
-            <li>
-                <a href="/listings/<%= listing._id %>"><%= listing.title %></a>
-            </li>
-        <% } %>
-    </ul> -->
 
-    <script>
+    <script> <!-- style not working properly & two filter at the same time pending -->
 
         let filterForm = document.getElementById("filterForm");
         const checkboxes = document.querySelectorAll('input[name=filter]');
@@ -136,6 +105,3 @@
 
 
 </body>
-
-<!-- Step 9 -->
-<!-- </html> -->
