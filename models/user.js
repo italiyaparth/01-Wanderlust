@@ -1,5 +1,3 @@
-// Step 36
-
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
@@ -11,7 +9,6 @@ const userSchema = new Schema({
         required: true
     }
 });
-
 
 userSchema.plugin(passportLocalMongoose);
 
