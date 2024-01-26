@@ -1,4 +1,3 @@
-// Step 3
 const sampleListings = [
   {
     title: "Cozy Beachfront Cottage",
@@ -292,5 +291,4 @@ const sampleListings = [
   }
 ];
 
-// Step 3
 module.exports = { data: sampleListings };
