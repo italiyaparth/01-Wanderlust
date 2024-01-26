@@ -1,4 +1,4 @@
-// Step 16 - Bootstrap Validation Code
+// Bootstrap Validation Code
 
 // Example starter JavaScript for disabling form submissions if there are invalid field
 (() => {
